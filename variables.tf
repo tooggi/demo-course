@@ -6,7 +6,7 @@ variable "GOOGLE_PROJECT" {
 variable "GOOGLE_REGION" {
   type        = string
   description = "GCP region"
-  default     = "us-central1"
+  default     = "us-central1-b"
 }
 
 variable "GKE_NUM_NODES" {
